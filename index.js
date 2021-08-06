@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateReadMe = require('./Develop/utils/generateMarkdown');
+const generateReadMe = require('./utils/generateMarkdown');
 const { denied } = require('assert');
 
 
@@ -82,6 +82,10 @@ const userInput = [
         message: "what does the user need to know about this repository",
     }
 ]
+inquirer.prompt(userInput)
+.then(answers => {console.log(answers)
+writeToFile('./dist/readme.md', generateReadMe(answers))
+});
 
 
 
@@ -89,10 +93,19 @@ const userInput = [
 const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) throw err;
+        return;
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+
+    
+}
 
 // Function call to initialize app
 init();
