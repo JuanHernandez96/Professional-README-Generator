@@ -40,7 +40,7 @@ const userInput = [
     },
     {
         type: 'input',
-        name: 'Name of project',
+        name: 'nameOfProject',
         message: "What's your Projects name? (required)",
         validate: projectName => {
             if (projectName) {
@@ -53,7 +53,7 @@ const userInput = [
     },
     {
         type: 'input',
-        name: 'Description of project',
+        name: 'descriptionOfProject',
         message: "what's your projects description",
         validate: proDescription => {
             if (proDescription) {
