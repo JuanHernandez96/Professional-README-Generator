@@ -9,7 +9,7 @@ const { denied } = require('assert');
 const userInput = [
     {
         type: 'input',
-        name: 'ReadMe title',
+        name: 'readMeTitle',
         message: "what's your Read Me title? (required)",
         validate: Title => {
             if (Title){
@@ -68,7 +68,7 @@ const userInput = [
         type: 'checkbox',
         name: 'licenseType',
         message: "what license do you want to use? (use arrow keys to move up and down and space to select)",
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE'],
+        choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'NONE'],
     },
     {
         type: 'input',

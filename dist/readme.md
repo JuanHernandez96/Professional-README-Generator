@@ -1,4 +1,4 @@
-#Title for read me: undefined
+#Title for read me: ReadmeGenerator
   ## Table of Contents
 
   [About](#About)
@@ -7,15 +7,20 @@
 
   #About -
 
-  #### Github User: Juanhernandez96
+  #### Github User: juanhernandez96
 
-  #### User Email: juanhernandez@yahoo.com
+  #### User Email: juanhernandez96@yahoo.com
 
   # Project -
-  ## Project Name: Professional README generator
-  ### Project Descritption: its an application meant to help you create readmes for any of your github repositories
-  #### Repository License: APACHE 2.0
-  ### Repository Info: Its meant to help you create readme for your repositories
+
+  ## Project Name: ProfessionalREADMEGenerator
+
+  ### Project Descritption: an application to help you write readme files 
+
+  #### Repository License: APACHE2.0
+
+  ### Repository Info: its designed to make your readme files easier to write
+  
   ### Badge:
 
-  ![badge](https://img.shields.io/static/v1?label=License&message=APACHE 2.0&color=blue)
+  ![badge](https://img.shields.io/static/v1?label=License&message=APACHE2.0&color=blue)
